@@ -80,11 +80,12 @@ right: 0;
 #abut{
   padding:50px var(--row_widh) 70px;
 }
-#abut h1{
+#abut h1,#galry h1{
   text-align: center;font-size:40px;font-family:Georgia;
   position: relative;    z-index: 0;
 }
-#abut h1::after{
+#galry h1{color: white;}
+#abut h1::after,#galry h1::after{
   content: '';
   height: 15px;
   width: 100px;
