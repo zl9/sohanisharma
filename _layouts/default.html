@@ -12,6 +12,22 @@
 <link rel="stylesheet" href="/style.css">
 </head>
 <body id='body'>
+  <style>
+    #ncal{
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #4385f5;
+      border-radius: 3px;
+      color: white;
+      margin-left: auto;
+    }
+    #ncal:hover{
+      background:#1a73e8;
+    }
+    </style>
   <header id='hedr'>
     <a id='m_btn' onclick=menu() data-il=''></a>
     <a href='/' id='logo'>SOHANI SHARMA</a>
@@ -24,6 +40,7 @@
       <!-- <a href='/blog' data-il=''>BLOG</a> -->
       <a href='/contact' data-il=''>CONTACT</a>
     </nav>
+    <a href="tel:+918128362205" class='icon' id="ncal"></a>
   </header>
   <div id="bw_bg"></div>
   <div id="m_bg"></div>
