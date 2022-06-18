@@ -2,7 +2,7 @@
 @font-face{font-family:'Material Icons Round';font-display:swap;src:url(https://fonts.gstatic.com/s/materialiconsround/v94/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2) format('woff2');}
 *,::before,::after{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif;list-style:none;text-decoration:none;outline:0;border:none;scroll-behavior:smooth;-webkit-tap-highlight-color:transparent;-webkit-user-select:none!important;-ms-user-select:none!important;user-select:none!important;--hfhit:75px;--row_widh:10vw;}
 
-body{overflow:hidden scroll;
+html,body{overflow:hidden scroll;
 background:#f2f2f2;
 }
 a{cursor:pointer;}
