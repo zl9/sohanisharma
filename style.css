@@ -78,7 +78,7 @@ right: 0;
 
 
 #abut{
-  padding:50px var(--row_widh) 70px;
+  padding:50px var(--row_widh);
 }
 #abut h1,#galry h1{
   text-align: center;font-size:40px;font-family:Georgia;
