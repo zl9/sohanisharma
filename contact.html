@@ -17,17 +17,44 @@ layout: default
             margin-bottom:20px;
         }
 
+        #coif{
+            display: flex;
+            justify-content:center;
+            flex-wrap: wrap;
+            align-items: center;
+            margin:20px 0;
+        }
+
         #coif>div{
-            width:300px;
+            width:100%;
+            max-width:300px;
             height:200px;
-            background:hsl(0, 0%, 90%);
+            background:hsl(214, 82%, 20%);
             margin-bottom:15px;
+            margin:0 10px 20px 10px;
+            min-width:200px;
+            text-align: center;
+            display: flex;
+           justify-content: center;
+            flex-direction: column;
+            color: white;
+            padding:10px;
+        }
+
+        #coif h2{margin:010px 0;}
+        #coif p{
+            color: hsl(0, 0%, 80%);
+        }
+        #coif span{
+            font-size:50px;
+            color: hsl(218, 70%, 65%);
         }
 
         form{
             display: flex;
             flex-wrap: wrap;
-            margin:0 20px;
+            /* margin:0 20px; */
+            margin-bottom:20px;
         }
 
         form>*::placeholder{
@@ -37,7 +64,7 @@ layout: default
         form input,form textarea,form button{
             margin:0 10px 20px 10px;
             padding: 12px 16px;
-            width: calc(50% - 20px);
+            width:100%;
             border-radius:5px;
         }
         form textarea{
@@ -57,27 +84,45 @@ layout: default
 
         }
 
+
     </style>
 
-    <div id="cobx">
+    <!-- <div id="cobx"> -->
         <div id="coif">
-            <div>Phone</div>
-            <div>E-mail</div>
-            <div>Address</div>
+            <div>
+                <span class="icon"></span>
+                <h2>Phone</h2>
+                <p>+91 8128362205</p>
+            </div>
+            <div>
+                <span class="icon"></span>
+                <h2>E-mail</h2>
+                <p>contact@sohanisharma.com</p>
+            </div>
+            <div>
+                <span class="icon"></span>
+                <h2>Address</h2>
+                <p>All Over Escorts Service in Ahmedabad, 380001</p>
+            </div>
         </div>
 
         <div id="coip">
-            <form action="">
+            <!-- https://mail.google.com/mail/?view=cm&fs=1&to=someone@example.com&su=SUBJECT&body=BODY&bcc=someone.else@example.com -->
+            
+
+            <form action="https://mail.google.com/mail/?view=cm&fs=1" target="_blank">
                 <input type="text" placeholder="Your Name">
                 <input type="email" placeholder="E-mail">
+                <input type="text" name="view" value="cm">
+                <input type="email" name="to" placeholder="E-mail" hidden value="contact@sohanisharma.com">
                 <input type="tel" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
-                <textarea placeholder="Write Your message" style="resize: vertical;"></textarea>
+                <input type="text" name="su" placeholder="Subject">
+                <textarea name="body" placeholder="Write Your message" style="resize: vertical;"></textarea>
                 <button>Send Now</button>
             </form>
         </div>
 
-    </div>
+    <!-- </div> -->
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.70718004834!2d72.43965629993318!3d23.02049776939228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1655837198319!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade""></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.70718004834!2d72.43965629993318!3d23.02049776939228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1655837198319!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
