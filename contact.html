@@ -111,13 +111,13 @@ layout: default
             
 
             <form action="https://mail.google.com/mail/?view=cm&fs=1" target="_blank">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="E-mail">
-                <input type="text" name="view" value="cm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="E-mail" required>
+                <input type="text" name="view" value="cm" hidden>
                 <input type="email" name="to" placeholder="E-mail" hidden value="contact@sohanisharma.com">
-                <input type="tel" placeholder="Phone Number">
-                <input type="text" name="su" placeholder="Subject">
-                <textarea name="body" placeholder="Write Your message" style="resize: vertical;"></textarea>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="text" name="su" placeholder="Subject" required>
+                <textarea name="body" placeholder="Write Your message" style="resize: vertical;" required></textarea>
                 <button>Send Now</button>
             </form>
         </div>
