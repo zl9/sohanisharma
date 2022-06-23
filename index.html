@@ -71,10 +71,6 @@ layout: default
    #imgbx{
 		overflow: hidden;
 	}
-	#imgbx img:hover{
-		transform: scale(1.2);
-		
-	}
 
   </style>
   <div style='background:repeating-linear-gradient(45deg, #1a1a1a 0px, #1a1a1a 7px, #00000000 10px),repeating-linear-gradient(135deg, #1a1a1a 0px, #1a1a1a 7px,#00000000 10px),linear-gradient(90deg, #4385f5 0%, #1cb5e9 100%);height:300px;display:flex;align-items:center;justify-content:center;'><h1>Recent Escort Girls</h1></div>
@@ -83,7 +79,13 @@ layout: default
   <style>
     #tfhgh{margin:-15px;}
     #tfhgh>a{
-      margin:15px;
+      margin:15px;border-bottom: 10px solid black;
+    }
+    #tfhgh>a:hover{
+      border-bottom-color:#4385f5;
+    }
+    #tfhgh>a:hover img{
+      transform: scale(1.2);
     }
   </style>
 
@@ -115,12 +117,13 @@ layout: default
 
   
         {% for post in paginator.posts %}
-            <a href="{{ post.url | absolute_url }}" style='width:300px;'>
+            <a href="{{ post.url | absolute_url }}" style='width:300px;border-radius: 0 0px 50px 50px;overflow: hidden;'>
               <div style='aspect-ratio:3/4;background:#f2f2f2;width:100%;display:flex;' id="imgbx">
                 <img src="/img/{{ post.img[0] }}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt="">
               </div>
-              <div style="background:white;height:70px;display:flex;align-items:center;justify-content:center;font-size:20px;color:black;font-weight:bold">
-                {{ post.title }}
+              <div style="background:white;text-align: center;color: black;padding:20px 10px;">
+                <h2 style="margin-bottom:10px;">{{ post.title }}</h2>
+                <p style="color:hsl(0, 0%, 30%);">Age: {{post.age}} year</p>
               </div>
             </a>
         {% endfor %}    

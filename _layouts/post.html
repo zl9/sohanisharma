@@ -6,19 +6,46 @@ post_class: post-template
 ---
 
 
+
+
 <style>
-	main{
-	}
-	#imgbx{
-		display:flex;
-		flex-wrap: wrap;
+	#abdn{
 		padding:50px var(--row_widh);
+	}
+
+	#abdn p{
+		line-height:1.5;letter-spacing:.5px;color: hsl(0, 0%, 30%);
+		margin-bottom:10px;
+	}
+	
+	#absk{
+		display: flex;
 		justify-content: center;
+		align-items: center;
 	}
-	#imgbx img:hover{
-		transform: scale(1.2);
-		
+	#jhxs{
+		background: white;padding:40px 20px 20px;width:400px;border-bottom: 10px solid #4385f5;border-radius: 0 0px 50px; margin-bottom:20px;
+		height:100%;
 	}
+
+	#jhxs a{
+	padding: 10px 15px;margin-top: 20px;display: inline-block;background: black;color: white;border-radius: 25px;
+  }
+  #jhxs a:hover{
+	background:#1a73e8;
+  }
+	
+	@media (max-width:800px){
+		#absk{
+			flex-direction: column;
+			align-items: center;
+	}
+
+	#jhxs{
+		width:100%;
+	}
+	
+  }
 </style>
 
 <section id='shider' style="background-image:linear-gradient(0deg, hsla(0, 0%, 0%, 0.5) 0%, hsla(0, 0%, 0%, 0.5) 100%), url('/img/{{ page.img[0] }}');background-position: center;background-size: cover;">
@@ -27,18 +54,72 @@ post_class: post-template
 </section>
 	
 
-	<div id="imgbx">
-		{% for img in page.img %}
-			<div style='aspect-ratio:3/4;background:#f2f2f2;display:flex;width:calc(250px + 5vw);margin:calc(5px + 1vw);overflow:hidden;'>
-			<img src="/img/{{img}}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt="{{page.title}}">
+<!-- <div>
+	<h2>My About</h2>
+	<p></p>
+</div> -->
+
+
+<section id="abdn">
+
+	<h2 style="text-align:center;margin-bottom:50px;padding:0 var(--row_widh);text-transform: uppercase;padding:40px;background:white;border-bottom:10px solid #4385f5;border-radius:0 0 0 50px;">My Profile</h2>
+	<div id="absk">
+		<div style='aspect-ratio:3/4;background:#f2f2f2;max-width:calc(300px + 10%);width:100%; display:flex;border-radius: 50px 0 0 0;overflow: hidden;margin-bottom:-20px;position: relative;' id="dygl">
+			<img src="/img/{{page.img[0]}}" style='width:100%;object-fit: cover;' alt="{{page.title}}">
 		  </div>
-		{% endfor %}
+
+		  <div id="jhxs">
+			<h2 style="margin-bottom:15px;border-left: 5px solid #4385f5;padding-left: 10px;">Hii My name is {{ page.name }}</h2>
+			{{content}}
+			<a href="tel:+918128362205">CALL NOW +918128362205</a>
+		</div>
 	</div>
+
+	<div style="text-align:center;padding:50px 0;background: white;border-right:10px solid #4385f5;border-radius:0px 50px 0 0;">
+		<h2 style="margin-bottom:20px;">My Body Status</h2>
+		<div>
+			<p>Age: {{page.age}} year</p>
+			<p>Weight: {{page.weight}} kg</p>
+			<p>Height: {{page.height}} feet</p>
+			<p>Chest: {{page.chest}} inch</p>
+			<p>Waist: {{page.waist}} inch</p>
+			<p>Hip: {{page.hip}} inch</p>
+			<p>Language: {{page.language}}</p>
+			<p>Region: {{page.region}}</p>
+		</div>
+	</div>
+
+
+</section>
+
+<style>
+	main{
+	}
+	#imgbx{
+		display:flex;
+		flex-wrap: wrap;
+		padding:0px var(--row_widh) 50px;
+		justify-content: center;
+	}
+	#imgbx img:hover{
+		transform: scale(1.2);
+		
+	}
+</style>
+
+<h2 style="margin:0 var(--row_widh) -50px;text-align:center;padding:50px 50px 80px;background:white;border-top:10px solid #4385f5;border-radius: 50px 0px 0;">My Sexy Pic</h2>
+<div id="imgbx">
+{% for img in page.img offset:1  %}
+	<div style='aspect-ratio:3/4;background:#f2f2f2;display:flex;width:calc(250px + 5vw);margin:calc(5px + 1vw);overflow:hidden;'>
+	<img src="/img/{{img}}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt="{{page.title}}">
+	</div>
+{% endfor %}
+</div>
  
 
 			
-
+<!-- 
 	<div class="article-post serif-font">
-		{{content}}
+		
 	</div>
-
+ -->
