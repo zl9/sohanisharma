@@ -121,7 +121,8 @@ layout: default
               <div style='aspect-ratio:3/4;background:#f2f2f2;width:100%;display:flex;' id="imgbx">
                 <img src="/img/{{ post.img[0] }}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt="">
               </div>
-              <div style="background:white;text-align: center;color: black;padding:20px 10px;">
+              <div style="background:white;text-align: center;color: black;padding:20px 10px;position: relative;">
+                <span style="position: absolute;top: -25px;left: 50%;padding: 10px;background: #4385f5;transform: translatex(-50%);color: white;border-radius: 50px;">{{ post.categories }}</span>
                 <h2 style="margin-bottom:10px;">{{ post.name }}</h2>
                 <p style="color:hsl(0, 0%, 30%);">Age: {{post.age}} year</p>
               </div>
