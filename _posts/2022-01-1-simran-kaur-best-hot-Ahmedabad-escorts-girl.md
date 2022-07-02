@@ -2,7 +2,7 @@
 layout: post
 title:  "Simran Kaur"
 name: "Simran Kaur"
-categories: [ Jekyll, tutorial ]
+categories: [Hot Modal]
 age: '21'
 weight: '46'
 height: '5.4'

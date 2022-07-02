@@ -2,7 +2,7 @@
 layout: post
 title:  "Ayushi Jain Sexy Ahmedabad Escort Very Cuteness Overloaded Girl"
 name:  "Ayushi Jain"
-categories: [ Jekyll, tutorial ]
+categories: [Single]
 age: '23'
 weight: '51'
 height: '5.2'

@@ -2,7 +2,7 @@
 layout: post
 title:  "Vasundhra Garg"
 name:  "Vasundhra Garg"
-categories: [ Jekyll, tutorial ]
+categories: [Office Girl]
 age: '20'
 weight: '48'
 height: '4.8'
