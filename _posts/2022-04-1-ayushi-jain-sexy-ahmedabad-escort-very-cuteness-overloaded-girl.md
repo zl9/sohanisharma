@@ -12,6 +12,7 @@ hip: '36'
 language: Hindi & English
 region: India
 img: [ayushi-jain-sexy-ahmedabad-escort-girl-best-service-provider.jpg,ayushi-jain-hot-bobs-ahmedabad-call-girl.jpg,hot-sexy-body-ayushi-jain-call-girl-sohanisharma.jpg,ayushi-jain-look-like-sunny-leone-hot-call-girl.jpg,ayushi-jain-sexy-ahmedabad-escort-very-beautyfull-girl.jpg,sexy-ahmedabad-escort-very-cuteness-overloaded-girl-ayushi-jain.jpg,ayushi-jain-sexy-figger-call-girl-ahmedabad.jpg,sexy-figger-girl-call-girl-ahmedabad-ayushi-jain.jpg,ayushi-jain-very-sexy-girl-ahmedabad-escort-independent.jpg,ayushi-jain-hot-luck-sexy-escorts-girl-sohanisharma.jpg]
+desc: Hello, i am Ayushi a call girl in ahmedabad. I am comfortable with everyone i meet, and i will treat all my clients like King. I have been commended many times already on just how special I makes our clients feel special. My goal is to make happy every client and your turn is coming to see how gorgeous ahmedabad call girls are.
 ---
 
 
