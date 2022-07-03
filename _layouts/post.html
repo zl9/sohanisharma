@@ -13,7 +13,7 @@ post_class: post-template
   "headline": "{{page.title}}",
   "image": {
     "@type": "ImageObject",
-    "url": ["{% for img in page.img offset:1  %},{% endfor %}{% for img in page.img %}https://sohanisharma.com/img/{{img}}{% endfor %}"]
+    "url": [{% for img in page.img %}{% if page.img[0] !== img %},{% endif %}"https://sohanisharma.com/img/{{img}}"{% endfor %}]
   },
   "publisher": {
     "@type": "Organization",
