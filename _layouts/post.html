@@ -5,7 +5,25 @@ archive: false
 post_class: post-template
 ---
 
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Article",
+  "author": "{{page.name}}",
+  "headline": "{{page.title}}",
+  "image": {
+    "@type": "ImageObject",
+    "url": ["{% for img in page.img %}/img/{{img}},{% endfor %}"]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{page.name}}"
+  },
+  "keywords": "{{page.title}}",
+  "mainEntityOfPage": "{{page.url}}",
+  "description": "{{page.desc}}"
+}
+</script>
 
 
 <style>
