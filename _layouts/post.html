@@ -20,7 +20,7 @@ post_class: post-template
     "name": "{{page.name}}"
   },
   "keywords": "{{page.title}}",
-  "mainEntityOfPage": "{{canonical_url}}",
+  "mainEntityOfPage": "{{page.url | absolute_url}}",
   "description": "{{page.desc}}"
 }
 </script>
