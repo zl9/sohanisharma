@@ -1,2 +1,10 @@
 timezone: UTC
 permalink: "/:title/"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+whitelist:
+  - jekyll-sitemap
+  - jekyll-include-cache
