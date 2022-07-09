@@ -13,6 +13,7 @@ language: Hindi & English
 region: India
 img: [Vasundhra-garg-sexy-ahmedabad-escort-girl-best-service-provider.jpg,Vasundhra-garg-hot-bobs-ahmedabad-call-girl.jpg,Vasundhra-garg-hot-sexy-body-call-girl-sohanisharma.jpg,Vasundhra-garg-look-like-sunny-leone-hot-call-girl.jpg,Vasundhra-garg-sexy-ahmedabad-escort-very-beautyfull-girl.jpg,Vasundhra-garg-sexy-ahmedabad-escort-very-cuteness-overloaded-girl.jpg,Vasundhra-garg-sexy-figger-call-girl-ahmedabad.jpg,Vasundhra-garg-sexy-figger-girl-call-girl-ahmedabad.jpg,Vasundhra-garg-very-sexy-girl-ahmedabad-escort-independent.jpg]
 desc: I am from ahmedabad. I'm a very beautiful lady, well educated, playful, and friendly. I promise the time you will spend in my company will be a memorable moment in your life. Focusing on making you feel comfortable, paying attention to every delicate need of yours. I can assure you that you will leave all your problems behind while being in my company!!!
+price: 3999
 ---
 
 <p>I am from ahmedabad. I'm a very beautiful lady, well educated, playful, and friendly. I promise the time you will spend in my company will be a memorable moment in your life. Focusing on making you feel comfortable, paying attention to every delicate need of yours. I can assure you that you will leave all your problems behind while being in my company!!!</p>
