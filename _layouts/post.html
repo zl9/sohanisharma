@@ -13,7 +13,7 @@ post_class: post-template
   "headline": "{{page.title}}",
   "image": {
     "@type": "ImageObject",
-    "url": [{% for img in page.img %}{% if page.img[0] != img %},{% endif %}"https://sohanisharma.com/img/{{img}}"{% endfor %}]
+    "url": [{% for img in page.img %}"https://sohanisharma.com/img/{{img}}"{% unless forloop.last %},{% endunless %}{% endfor %}]
   },
   "publisher": {
     "@type": "Organization",
@@ -72,11 +72,6 @@ post_class: post-template
 </section>
 	
 
-<!-- <div>
-	<h2>My About</h2>
-	<p></p>
-</div> -->
-
 
 <section id="abdn">
 
@@ -107,12 +102,29 @@ post_class: post-template
 		</div>
 	</div>
 
-
+	<div style="text-align:center;padding:50px 0;background: white;border-left:10px solid #4385f5;border-radius:50px 0 0 0;margin-top:50px;">
+		<h2 style="margin-bottom:40px;">My Price</h2>
+		<div style="display:flex;justify-content: center;flex-wrap: wrap;">
+			<div style="margin:0 30px 20px">
+				<h3 style="margin-bottom:20px;color: #4385f5;">in Call</h3>
+				<p>1 Hour: ₹{{page.price | intcomma}}/-</p>
+				<p>2 Hour: ₹{{page.price | times:2 | minus:999 | intcomma}}/-</p>
+				<p>3 Hour: ₹{{page.price | times:3 | minus:1998 | intcomma}}/-</p>
+				<p>Full Night: ₹{{page.price | times:4 | plus:3 | intcomma}}/-</p>
+			</div>
+			<div style="margin:0 30px;">
+				<h3 style="margin-bottom:20px;color: #4385f5;">out Call</h3>
+				<p>1 Hour: ₹{{page.price | plus:3000 | intcomma}}/-</p>
+				<p>2 Hour: ₹{{page.price | times:2 | minus:999 | plus:3000 | intcomma}}/-</p>
+				<p>3 Hour: ₹{{page.price | times:3 | minus:1998 | plus:3000 | intcomma}}/-</p>
+				<p>Full Night: ₹{{page.price | times:4 | plus:3 | plus:3000 | intcomma}}/-</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <style>
-	main{
-	}
+
 	#imgbx{
 		display:flex;
 		flex-wrap: wrap;
