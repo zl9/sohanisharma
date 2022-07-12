@@ -3,13 +3,13 @@ published: false
 layout: post
 name: Aakruti Deole
 categories:
-  - Working Girls
-age: '21'
-weight: '46'
-height: '5.4'
-chest: '34'
-waist: '28'
-hip: '33'
+  - Working Girl
+age: '25'
+weight: '50'
+height: '5.8'
+chest: '36'
+waist: '32'
+hip: '38'
 language: Hindi & English
 region: India
 img:
@@ -27,6 +27,6 @@ desc: >-
   unique and authentic Ahmedabad Escorts are Next to me with whom you can spend
   the best moments of pleasure you can imagine. we like to give and receive
   pleasure, as long as you are with us we will make you enjoy it to the maximum.
-price: 4499
+price: 3999
 ---
 dgdg
