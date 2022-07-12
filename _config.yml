@@ -9,5 +9,4 @@ whitelist:
   - jekyll-sitemap
   - jekyll-include-cache
   
-  humanize:
-    date_format: "%m/%d/%Y"
+humanize:
