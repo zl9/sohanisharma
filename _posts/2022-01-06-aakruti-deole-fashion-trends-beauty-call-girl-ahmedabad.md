@@ -18,7 +18,7 @@ img:
   - aakruti-deole-swimming-with-you-hot-sexy-escort-girl-sohanisharma.jpg
   - aakruti-deole-bathroom-sexy-girl-best-ahmedabad-call-girl.jpg
   - aakruti-deole-coffee-shop-hot-escorts-girl-ahmedabad-sohanisharma.jpg
-  - simran-kaur-hot-body-sexy-escorts-girl-sohanisharma.jpg
+  - aakruti-deole-sexy-body-Ahmedabad-escorts-girl-sohanisharma.jpg
   - simran-kaur-hot-luck-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-hot-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-new-iland-hot-sexy-escorts-girl-sohanisharma.jpg
