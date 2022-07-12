@@ -14,11 +14,12 @@ language: Hindi & English
 region: India
 img:
   - aakruti-deole-fashion-trends-beauty-call-girl-ahmedabad.jpg
-  - aakruti-deole-angelic-gorgeous-pretty-looks-Ahmedabad-escorts-girl.jpg
+  - aakruti-deole-angelic-gorgeous-pretty-looks-ahmedabad-escorts-girl.jpg
   - aakruti-deole-swimming-with-you-hot-sexy-escort-girl-sohanisharma.jpg
   - aakruti-deole-bathroom-sexy-girl-best-ahmedabad-call-girl.jpg
   - aakruti-deole-coffee-shop-hot-escorts-girl-ahmedabad-sohanisharma.jpg
-  - aakruti-deole-sexy-body-Ahmedabad-escorts-girl-sohanisharma.jpg
+  - aakruti-deole-sexy-body-ahmedabad-escorts-girl-sohanisharma.jpg
+  - aakruti-deole-best-call-girl-in-ahmedabad-sexy-chest.jpg
   - simran-kaur-hot-luck-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-hot-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-new-iland-hot-sexy-escorts-girl-sohanisharma.jpg
