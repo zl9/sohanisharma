@@ -1,9 +1,9 @@
 ---
 published: false
 layout: post
-name: Simran Kaur
+name: Aakruti Deole
 categories:
-  - Hot Modal
+  - Working Girls
 age: '21'
 weight: '46'
 height: '5.4'
