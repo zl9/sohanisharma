@@ -13,7 +13,8 @@ hip: '38'
 language: Hindi & English
 region: India
 img:
-  - simran-kaur-badroom-hot-sexy-Ahmedabad-escorts-girl-sohanisharma.jpg
+  - aakruti-deole-fashion-trends-beauty-call-girl-ahmedabad.jpg
+  - aakruti-deole-badroom-hot-sexy-Ahmedabad-escorts-girl-sohanisharma.jpg
   - simran-kaur-blue-dress-hot-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-coffee-eating-hot-sexy-escorts-girl-sohanisharma.jpg
   - simran-kaur-coffee-shop-hot-sexy-escorts-girl-sohanisharma.jpg
