@@ -20,10 +20,11 @@ img:
   - aakruti-deole-coffee-shop-hot-escorts-girl-ahmedabad-sohanisharma.jpg
   - aakruti-deole-sexy-body-ahmedabad-escorts-girl-sohanisharma.jpg
   - aakruti-deole-best-call-girl-in-ahmedabad-sexy-chest.jpg
-  - simran-kaur-hot-luck-sexy-escorts-girl-sohanisharma.jpg
-  - simran-kaur-hot-sexy-escorts-girl-sohanisharma.jpg
-  - simran-kaur-new-iland-hot-sexy-escorts-girl-sohanisharma.jpg
-  - simran-kaur-new-style-hot-sexy-escorts-girl-sohanisharma.jpg
+  - hot-luck-sexy-escorts-girl-sohanisharma-aakruti-deole.jpg
+  - ahmedabad-hot-sexy-escort-girl-service-aakruti-deole.jpg
+  - new-iland-ahmedabad-hot-sexy-call-girl-aakruti-deole.jpg
+  - sexy-style-ahmedabad-hot-sexy-escorts-girl-aakruti-deole.jpg
+  - ahmedabad-top-selfy-call-girl-escorts-service-provider.jpg
 desc: >-
   Hello myself Aakruti an ahmedabad escorts Girl in Gandhi Nagar. I am
   beautiful, hot and a dominator in bed. Best Escorts Service in Ahmedabad.
