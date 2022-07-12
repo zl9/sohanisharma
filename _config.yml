@@ -3,4 +3,4 @@ permalink: "/:title/"
 
 plugins:
   - jekyll-sitemap
-  - jekyll-include-cache
+#   - jekyll-include-cache
