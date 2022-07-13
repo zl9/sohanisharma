@@ -1,4 +1,4 @@
 title: Sohani Sharma
-permalink: "/:title:output_ext"
+permalink: "/:title"
 plugins:
   - jekyll-sitemap
