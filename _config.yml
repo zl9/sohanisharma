@@ -1,14 +1,5 @@
-timezone: UTC
-permalink: "/:title/"
-
+title: Sohani Sharma
+permalink: "/:title"
 plugins:
   - jekyll-sitemap
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
-  homepage: "pages"
