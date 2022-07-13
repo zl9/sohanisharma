@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: '/:title/'
 title: Vasundhra Garg - Very Beautiful Lady Well Educated Best Call Girl
 name: Vasundhra Garg
 categories:
@@ -29,8 +30,7 @@ desc: >-
   to every delicate need of yours. I can assure you that you will leave all your
   problems behind while being in my company!!!
 price: 3999
-published: true
-permalink: '/:title/'
+
 ---
 
 <p>I am from ahmedabad. I'm a very beautiful lady, well educated, playful, and friendly. I promise the time you will spend in my company will be a memorable moment in your life. Focusing on making you feel comfortable, paying attention to every delicate need of yours. I can assure you that you will leave all your problems behind while being in my company!!!</p>
