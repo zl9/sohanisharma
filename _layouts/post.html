@@ -7,7 +7,7 @@ layout: default
   "@context": "https://schema.org/",
   "@type": "Article",
   "author": "{{page.name}}",
-  "headline": "{{page.title}}",
+  "headline": "{{page.title | replace_first:page.name, " -" |prepend:page.name}} • Call Now +918128362205",
   "image": {
     "@type": "ImageObject",
     "url": [{% for img in page.img %}"https://sohanisharma.com/img/{{img}}"{% unless forloop.last %},{% endunless %}{% endfor %}]
