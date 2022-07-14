@@ -1,8 +1,5 @@
 ---
 layout: default
-disqus: false
-archive: false
-post_class: post-template
 ---
 
 <script type="application/ld+json">
@@ -21,7 +18,7 @@ post_class: post-template
   },
   "keywords": "{{page.title}}",
   "mainEntityOfPage": "{{page.url | absolute_url}}",
-  "description": "{{page.desc}}"
+  "description": "{{content | strip_newlines | strip_html}}"
 }
 </script>
 
