@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: '/:title/'
 name:  Khushi Chhetri
 categories:
  - Collage Girl

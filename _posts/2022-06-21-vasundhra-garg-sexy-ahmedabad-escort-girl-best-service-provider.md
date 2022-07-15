@@ -1,6 +1,5 @@
 ---
 layout: post
-permalink: '/:title/'
 name: 'Vasundhra Garg'
 categories:
  - Office Girl
