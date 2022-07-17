@@ -2,7 +2,7 @@
 layout: post
 name: Swarupa 
 categories:
-  - House Wife
+  - Working Wife
 age: '26'
 weight: '55'
 height: '5.1'
