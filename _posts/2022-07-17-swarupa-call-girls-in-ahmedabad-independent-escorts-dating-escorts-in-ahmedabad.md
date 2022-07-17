@@ -2,7 +2,7 @@
 layout: post
 name: Swarupa 
 categories:
-  - Working Wife
+  - Working Girl
 age: '26'
 weight: '55'
 height: '5.1'
