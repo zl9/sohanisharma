@@ -18,9 +18,10 @@ layout: default
   },
   "keywords": "{{page.title}}",
   "mainEntityOfPage": "{{page.url | absolute_url}}",
-  "description": "{{content | strip_newlines | strip_html}}"
+  "description": "{{content | strip_newlines | strip_html | strip}}"
 }
 </script>
+
 
 
 <style>
