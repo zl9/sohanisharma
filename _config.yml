@@ -1,4 +1,2 @@
 title: Sohani Sharma
 permalink: "/:title"
-plugins:
-  - jekyll-sitemap
