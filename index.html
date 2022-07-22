@@ -132,7 +132,7 @@ layout: default
         {% for post in site.posts %}
             <a href="{{ post.url | absolute_url }}" style='width:300px;border-radius: 0 0px 50px 50px;overflow: hidden;'>
               <div style='aspect-ratio:3/4;background:#f2f2f2;width:100%;display:flex;' id="imgbx">
-                <img src="/img/{{ post.img[0] }}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt="">
+                <img src="/img/{{ post.img[0] }}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt='{{ post.img[0] | replace: "-", " " | remove: ".jpg" | capitalize}}'>
               </div>
               <div style="background:white;text-align: center;color: black;padding:20px 10px;position: relative;">
                 <span style="position: absolute;top: -25px;left: 50%;padding: 10px;background: #4385f5;transform: translatex(-50%);color: white;border-radius: 50px;">{{ post.categories }}</span>
@@ -262,7 +262,7 @@ layout: default
   </div>
 </section>
 
-<section>
+<section id="jxhs">
   <div style='text-align:center;background:radial-gradient(circle at center center, rgb(67,133,245) 0%, rgb(67,133,245) 7%,transparent 7%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0)); background-size: 16px 16px;padding:100px;'>
     <h1 style="color:white;">Information</h1>
   </div>
