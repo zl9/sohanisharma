@@ -14,7 +14,7 @@ region: India
 img:
   - priya-varrier-high-profile-desi-call-girl-low-rate-ahmedabad-escort-service-provider.jpg
   - we-provide-high-class-pure-desi-ahmedabad-desi-call-girls-priya-varrier.jpg
-  - top-models-genuine-classifieds--call-girl-service-girls-escort-service.jpg
+  - top-models-genuine-classifieds-call-girl-service-girls-escort-service.jpg
   - priya-varrier-enjoy-your-sex-fantasies-with-slim-desi-model-girls-ahmedabad.jpg
   - ahmedabad-independent-escorts-call-girls-services-and-sex-meeting-priya-varrier.jpg
   - meet-with-high-profile-beautiful-indian-desi-call-girls-in-ahmedabad.jpg
