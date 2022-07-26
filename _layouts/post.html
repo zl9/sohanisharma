@@ -145,9 +145,34 @@ layout: default
 </div>
  
 
-			
-<!-- 
-	<div class="article-post serif-font">
-		
+
+<div style="display:flex; margin: 0 var(--row_widh) 50px;">
+	{% if page.previous %}
+	<div style="width: 100%">
+		<h3 style="text-align:center;padding:50px 50px 80px;background:white;border-top:10px solid #4385f5;border-radius: 50px 0px 0;    margin-bottom: -40px;">Previous Post</h3>
+		<a href="{{page.previous.url | absolute_url}}" style="margin:0 3vw; display: flex;flex-direction: column;">
+			<div style='aspect-ratio:3/4;background:#e6e6e6;width:100%;display:flex;'>
+				<img src="/img/{{page.previous.img[0]}}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt='{{ page.previous.img[0] | replace: "-", " " | remove: ".jpg" | capitalize}}'>
+			</div>
+			<div style="background:white;text-align: center;color: black;padding:20px 10px;position: relative;border-radius: 0 0px 40px 40px;">
+				<h2 style="margin-bottom:10px;">{{ page.previous.name }}</h2>
+				<p style="color:hsl(0, 0%, 30%);">Age: {{page.previous.age}} year</p>
+			</div>
+		</a>
 	</div>
- -->
+	{% endif %}
+	{% if page.next %}
+	<div style="width: 100%">
+		<h3 style="text-align:center;padding:50px 50px 80px;background:white;border-top:10px solid #4385f5;border-radius: 0 50px 0 0;    margin-bottom: -40px;">Next Post</h3>
+		<a href="{{page.next.url | absolute_url}}" style="margin:0 3vw;display: flex;flex-direction: column;">
+			<div style='aspect-ratio:3/4;background:#e6e6e6;width:100%;display:flex;'>
+				<img src="/img/{{ page.next.img[0] }}" style='width:100%;object-fit: cover;transition:transform .4s ease;' alt='{{ page.next.img[0] | replace: "-", " " | remove: ".jpg" | capitalize}}'>
+			</div>
+			<div style="background:white;text-align: center;color: black;padding:20px 10px;position: relative;border-radius: 0 0px 40px 40px;">
+				<h2 style="margin-bottom:10px;">{{ page.next.name }}</h2>
+				<p style="color:hsl(0, 0%, 30%);">Age: {{page.next.age}} year</p>
+			</div>
+		</a>
+	</div>
+	{% endif %}
+</div>
